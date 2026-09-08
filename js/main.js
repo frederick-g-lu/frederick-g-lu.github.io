@@ -289,8 +289,8 @@ function setupHeroTerminalNav() {
     const aliases = {
         home: 'home',
         skills: 'skills',
-        projects: 'projects',
-        project: 'projects',
+        projects: 'work',
+        project: 'work',
         publications: 'publications',
         papers: 'publications',
         research: 'publications',

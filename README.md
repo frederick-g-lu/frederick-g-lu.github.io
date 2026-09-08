@@ -35,19 +35,20 @@ personal-website/
 
 ## Section Order
 
-1. **Hero** — Terminal UI navigation with integrated About Me
-2. **Skills** — Categorized by Languages, AI/ML, Backend, Tools, Domains
-3. **Projects** — Portfolio projects displayed as scannable rows with technologies and links
-4. **Publications** — Research papers and academic publications
-5. **Experience** — Professional and volunteer experience with side-by-side layout
+1. **Hero** — Intro, current focus, and keyboard-friendly section navigation
+2. **Selected Work** — Portfolio projects displayed as scannable rows with technologies and links
+3. **Experience** — Professional and volunteer experience with side-by-side layout
+4. **Toolkit** — Categorized skills across Languages, AI/ML, Backend, Tools, and Domains
+5. **Research** — Research papers and academic publications
 6. **Education** — Academic credentials and achievements
-7. **Activities** — Personal interests and hobbies
+7. **Outside the Editor** — Personal interests and hobbies
 8. **Contact** — Social links
 
 ## Layout Features
 
-- **Experience & Projects**: Row-based layout for easier scanning and quick information review
-- **Skills**: Organized by category cards for better organization
+- **Experience, Projects & Research**: Editorial row-based layouts for easier scanning and quick information review
+- **Skills**: Organized by category columns without heavy cards
+- **Iceberg theme**: Deep blue surfaces, pale blue type, and coral interaction accents
 - **Responsive**: Layouts adapt from side-by-side on desktop to stacked on mobile
 
 ## Development
