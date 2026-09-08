@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Frederick Lu - Double Major Computer Science & AI Science Student at Purdue University | Software Developer | AI Researcher">
     <meta name="author" content="Frederick Lu">
-    <meta name="theme-color" content="#232136">
+    <meta name="theme-color" content="#0b1f33">
+    <meta name="color-scheme" content="dark">
 
     <!-- Open Graph / Social Sharing -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Frederick Lu - Computer Science & AI Science">
-    <meta property="og:description" content="Software developer and AI science student portfolio.">
+    <meta property="og:description" content="Software developer and AI science student building useful systems with code, data, and curiosity.">
+    <meta property="og:url" content="https://frederick-g-lu.github.io/">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Frederick Lu - Computer Science & AI Science">
-    <meta name="twitter:description" content="Software developer and AI science student portfolio.">
+    <meta name="twitter:description" content="Software developer and AI science student building useful systems with code, data, and curiosity.">
 
     <title>Frederick Lu - Computer Science & AI Science Student & Software Developer</title>
     
@@ -24,95 +26,102 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     
-    <!-- Font Awesome for icons (optional) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Google Fonts for terminal -->
+    <!-- Typefaces -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-        <!-- Main Website Content -->
-        <div class="main-content" id="main-content">
-        <!-- Navigation -->
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-shell">
         <nav class="navbar" id="navbar">
             <div class="container">
-                <div class="nav-brand">
-                    <a href="#home" aria-label="Frederick Lu home">
-                    </a>
+                <a class="nav-brand" href="#home" aria-label="Frederick Lu home"><span>FL</span><strong>Frederick Lu</strong></a>
+                <div class="nav-links" aria-label="Main navigation">
+                    <a href="#work">Work</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#writing">Writing</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
         </nav>
 
-        <!-- Hero Section -->
-        <section id="home" class="hero">
+        <main id="main-content">
+        <section id="home" class="hero section-shell">
             <div class="container">
                 <div class="hero-content">
-                    <h1 class="hero-title">Hi, I'm <span class="highlight">Frederick Lu</span></h1>
-                    <p class="hero-subtitle">Double Major Computer Science & AI Science Student & Software Developer</p>
-                        <p>I'm a sophomore at Purdue University pursuing dual degrees in AI Science and Computer Science with a minor in Business Management (Class of 2028). With experience in software development, AI/ML, and backend systems, I'm passionate about applying computer science and artificial intelligence to solve challenging real-world problems.</p>
+                    <p class="eyebrow"><span class="status-dot"></span> Available for thoughtful collaborations</p>
+                    <h1 class="hero-title">Building at the intersection of <em>code</em>, data, and people.</h1>
+                    <p class="hero-subtitle">I’m Frederick, a computer science and AI science student at Purdue University. I make reliable software, explore applied machine learning, and enjoy turning complicated problems into clear experiences.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#work">See selected work <span aria-hidden="true">↓</span></a>
+                        <a class="text-link" href="mailto:lu.g.frederick@gmail.com">Start a conversation <span aria-hidden="true">↗</span></a>
+                    </div>
+                    </div>
+                    <div class="hero-aside">
+                        <p class="mono-label">CURRENTLY</p>
+                        <p>Learning, shipping, and asking better questions.</p>
+                        <dl class="hero-facts">
+                            <div><dt>Based in</dt><dd>Indianapolis, IN</dd></div>
+                            <div><dt>Studying</dt><dd>AI + Computer Science</dd></div>
+                            <div><dt>Graduating</dt><dd>2028</dd></div>
+                        </dl>
                     </div>
                     <form class="hero-terminal-nav" id="hero-terminal-nav" aria-label="Jump to section">
-                        <label for="hero-nav-input" class="hero-terminal-label">jump:</label>
-                        <span class="hero-terminal-prompt" aria-hidden="true">&gt;</span>
+                        <label for="hero-nav-input" class="hero-terminal-label">navigate</label>
+                        <span class="hero-terminal-prompt" aria-hidden="true">/</span>
                         <input
                             id="hero-nav-input"
                             class="hero-terminal-input"
                             type="text"
                             autocomplete="off"
                             spellcheck="false"
-                            placeholder="type a section: skills, projects, publications, experience, education, activities, contact"
+                            placeholder="type a section and press enter"
                         >
                     </form>
                 </div>
             </div>
         </section>
 
-        <!-- Skills Section -->
-        <section id="skills" class="skills">
+        <section id="work" class="projects section-shell section-tint">
             <div class="container">
-                <h2 class="section-title">Skills</h2>
-                <div class="skills-categories" id="skills-categories">
-                    <!-- Skills will be dynamically loaded and categorized from config.json -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="projects">
-            <div class="container">
-                <h2 class="section-title">Projects</h2>
+                <div class="section-heading"><p class="mono-label">01 / selected work</p><h2>Things I’ve built</h2><p>Projects that taught me something worth carrying forward.</p></div>
                 <div class="projects-list" id="projects-list">
-                    <!-- Projects will be dynamically loaded from projects.json -->
+                    <p class="loading-state">Loading selected work...</p>
                 </div>
             </div>
         </section>
 
-        <!-- Publications Section -->
-        <section id="publications" class="publications">
+        <section id="experience" class="experience section-shell">
             <div class="container">
-                <h2 class="section-title">Publications</h2>
-                <div class="publications-list" id="publications-list">
-                    <!-- Publications will be dynamically loaded from publications.json -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Experience Section -->
-        <section id="experience" class="experience">
-            <div class="container">
-                <h2 class="section-title">Experience</h2>
+                <div class="section-heading"><p class="mono-label">02 / experience</p><h2>Where I’ve contributed</h2><p>Roles that sharpened my technical judgment and my ability to work with people.</p></div>
                 <div class="experience-list" id="experience-list">
-                    <!-- Experience will be dynamically loaded from config.json -->
+                    <p class="loading-state">Loading experience...</p>
                 </div>
             </div>
         </section>
 
-        <!-- Education Section -->
-        <section id="education" class="education">
+        <section id="skills" class="skills section-shell section-tint">
             <div class="container">
-                <h2 class="section-title">Education</h2>
+                <div class="section-heading"><p class="mono-label">03 / toolkit</p><h2>How I work</h2><p>A practical stack for moving from a fuzzy question to a useful result.</p></div>
+                <div class="skills-categories" id="skills-categories">
+                    <p class="loading-state">Loading toolkit...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="writing" class="publications section-shell">
+            <div class="container">
+                <div class="section-heading"><p class="mono-label">04 / research</p><h2>Notes from the lab</h2><p>Selected research and questions I’ve spent time with.</p></div>
+                <div class="publications-list" id="publications-list">
+                    <p class="loading-state">Loading research...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education section-shell section-tint">
+            <div class="container">
+                <div class="section-heading"><p class="mono-label">05 / foundation</p><h2>Still learning, on purpose.</h2></div>
                 <div class="education-content">
                     <div class="education-card">
                         <h3>Purdue University</h3>
@@ -132,39 +141,38 @@
             </div>
         </section>
 
-        <!-- Activities Section -->
-        <section id="activities" class="activities">
+        <section id="activities" class="activities section-shell">
             <div class="container">
-                <h2 class="section-title">Interests & Activities</h2>
+                <div class="section-heading"><p class="mono-label">06 / outside the editor</p><h2>More than the work</h2></div>
                 <div class="activities-grid" id="activities-grid">
-                    <!-- Activities will be dynamically loaded from config.json -->
+                    <p class="loading-state">Loading interests...</p>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="contact">
+        <section id="contact" class="contact section-shell section-tint">
             <div class="container">
-                <h2 class="section-title">Get In Touch</h2>
+                <p class="mono-label">07 / hello</p>
+                <h2 class="contact-title">Have a good problem?<br><em>Let’s talk.</em></h2>
                 <div class="contact-content">
-                    <p>Please contact me at any time for questions or opportunities</p>
+                    <p>I’m always interested in ambitious projects, research, and conversations about making technology more useful.</p>
                     <div class="social-links">
-                        <a href="https://www.linkedin.com/in/frederick-g-lu" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/frederick-g-lu" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="mailto:lu.g.frederick@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="mailto:lu.g.frederick@gmail.com" class="social-link">Email <span aria-hidden="true">↗</span></a>
+                        <a href="https://github.com/frederick-g-lu" target="_blank" rel="noopener noreferrer" class="social-link">GitHub <span aria-hidden="true">↗</span></a>
+                        <a href="https://www.linkedin.com/in/frederick-g-lu" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn <span aria-hidden="true">↗</span></a>
                     </div>
                 </div>
             </div>
         </section>
+        </main>
 
-        <!-- Footer -->
         <footer class="footer">
             <div class="container">
-                <p></span> Frederick Lu - <span id="current-year"></span></p>
+                <p>Frederick Lu <span aria-hidden="true">·</span> <span id="current-year"></span></p>
+                <a href="#home">Back to top ↑</a>
             </div>
         </footer>
-        </div>
-        <!-- End Main Content -->
+    </div>
 
         <!-- JavaScript Files -->
         <script src="js/main.js"></script>
