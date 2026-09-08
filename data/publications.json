@@ -1,7 +1,7 @@
 [
     {
         "title": "AiShifu: AI Karate Pose Trainer",
-        "description": "Published research paper on an interactive algorithm utilizing a pose detection neural network to help martial arts students improve their forms during solo practice. Featured in Journal of Student Research with almost 400 downloads and 16+ references.",
+        "description": "AI karate training tool using human pose estimation; 500+ downloads and 16+ citations.",
         "journal": "Journal of Student Research",
         "url": "https://doi.org/10.47611/jsrhs.v12i3.5063",
         "year": "2023",

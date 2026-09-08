@@ -37,7 +37,7 @@ function loadSkills() {
 
         skillsCategories.innerHTML = '';
 
-        fetch('data/config.json')
+        fetch('data/config.json?v=20260908')
             .then(response => {
                 if (!response.ok) throw new Error('Network response was not ok');
                 return response.json();
@@ -86,7 +86,7 @@ function loadExperience() {
 
         experienceList.innerHTML = '';
 
-        fetch('data/config.json')
+        fetch('data/config.json?v=20260908')
             .then(response => {
                 if (!response.ok) throw new Error('Network response was not ok');
                 return response.json();
@@ -141,7 +141,7 @@ function loadProjects() {
 
         projectsList.innerHTML = '';
 
-        fetch('data/projects.json')
+        fetch('data/projects.json?v=20260908')
             .then(response => {
                 if (!response.ok) throw new Error('Network response was not ok');
                 return response.json();
@@ -191,7 +191,7 @@ function loadPublications() {
 
         publicationsList.innerHTML = '';
 
-        fetch('data/publications.json')
+        fetch('data/publications.json?v=20260908')
             .then(response => {
                 if (!response.ok) throw new Error('Network response was not ok');
                 return response.json();
@@ -244,7 +244,7 @@ function loadActivities() {
 
         activitiesGrid.innerHTML = '';
 
-        fetch('data/config.json')
+        fetch('data/config.json?v=20260908')
             .then(response => {
                 if (!response.ok) throw new Error('Network response was not ok');
                 return response.json();

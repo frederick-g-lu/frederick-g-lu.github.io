@@ -1,8 +1,8 @@
 {
     "site": {
         "name": "Frederick Lu",
-        "title": "Double Major Computer Science & AI Science Student & Software Developer",
-        "description": "Frederick Lu - AI Science Student at Purdue University | Software Developer",
+        "title": "Computer Science & AI Student | Software Developer",
+        "description": "Frederick Lu is a Purdue computer science and artificial intelligence dual-major building AI-powered platforms and systems.",
         "author": "Frederick Lu",
         "email": "lu.g.frederick@gmail.com",
         "phone": "858-465-0128",
@@ -17,19 +17,19 @@
         "university": "Purdue University",
         "degree": "Bachelor of Science, AI Science, Bachelor of Science, Computer Science",
         "minor": "Business Management",
-        "graduation": "Class of 2028",
-        "gpa": "3.71 / 4.0",
+        "graduation": "Early Graduation 2027",
+        "gpa": "3.65 / 4.0",
         "honors": "John Martinson Honors College - Leadership Council / Mentor",
         "achievements": "Dean's List & Semester Honors"
     },
     "experience": [
         {
-            "company": "Purdue University",
+            "company": "Purdue Academic Success Center",
             "position": "Peer Tutor",
             "period": "Jan 2026 - Present",
             "highlights": [
-                "Teaching students difficult computer science courses that are commonly requested for tutoring.",
-                "Becoming a student leader in computer science and discrete mathematics topics, as well as gaining interpersonal and communication skills."
+                "Created and facilitated 5+ exam review sessions and hosted 30+ tutoring sessions.",
+                "Provide individualized support in computer science and discrete mathematics while developing leadership skills."
             ]
         },
         {
@@ -47,19 +47,18 @@
             "position": "Software Intern",
             "period": "Dec - Jan 2025, Jun - July 2024",
             "highlights": [
-                "Developed/optimized large-vocabulary voice command recognition neural network models",
-                "Analyzed performance of 10+ hardware platforms for ASR application suitability",
-                "Improved and documented legacy IC testing software",
-                "Built firmware for Microchip PIC18 to interface with 5+ sensor network"
+                "Developed noise-robust MobileNet configurations and model pruning for an IoT accelerator.",
+                "Benchmarked 10+ hardware platforms for on-device automatic speech recognition.",
+                "Built C firmware for a Microchip PIC18 MCU and 5+ sensor array.",
+                "Documented legacy IC testing software, reducing debugging time by 30%."
             ]
         }
     ],
     "skills": {
-        "Languages": ["Python", "Java", "C++", "JavaScript", "HTML"],
-        "AI/ML": ["TensorFlow", "NumPy", "Pandas"],
-        "Backend": ["FastAPI", "SQL"],
-        "Tools": ["Git", "GitHub", "AWS", "Linux", "Android Studio"],
-        "Domains": ["API Integration", "Backend Development", "Database Development", "Frontend Development"]
+        "Software": ["Python", "Java", "C", "C++", "JavaScript", "SQL", "R", "Kotlin", "Assembly", "Shell", "QML", "CSS"],
+        "Hardware": ["Verilog", "Vivado", "Computer Architecture", "Digital Circuits", "LEGv8 ISA", "SPI / I2C", "Oscilloscope"],
+        "AI/ML": ["TensorFlow", "PyTorch", "NeMo", "Pandas", "NumPy"],
+        "Frameworks": ["FastAPI", "React", "AWS", "Linux", "Git", "Android Studio", "Neovim"]
     },
     "activities": [
         {

@@ -1,7 +1,7 @@
 [
     {
         "title": "Stickman Adblocker",
-        "description": "This is a fun project where I made an adblocker that has a stickman appear to remove your ads. It passes all tests on CanYouBlockIt.com, and has an interactive stickman that you can throw around.",
+        "description": "Ad-blocking prototype with custom filtering methods and an interactive stickman interface.",
         "technologies": ["Node.js", "Javascript", "HTML", "CSS"],
         "liveUrl": "",
         "githubUrl": "https://github.com/frederick-g-lu/stickman-adblocker",
@@ -9,7 +9,7 @@
     },
     {
         "title": "Evac Assist",
-        "description": "EvacAssist is an app that helps people in crisis areas find other users who have access to vehicles, allowing them to coordinate an evacuation. It shows a path from driver to passenger that avoids conflict zones in the region, has options for disabilities needed, number of passengers, and a live map. On the admin side, there is a web dashboard which allows for a quick overview of all users and current trips made.",
+        "description": "Crisis-area evacuation app connecting passengers and drivers with route planning, accessibility options, live maps, and an admin dashboard.",
         "technologies": ["Expo", "React", "MongoDB Atlas", "Node.js" , "Express" , "Socket.io", "Flask"],
         "liveUrl": "",
         "githubUrl": "https://github.com/zakellyputra/EvacAssist-Server",
@@ -17,7 +17,7 @@
     },
     {
         "title": "Squat Counter",
-        "description": "AI-powered squat counter using pretrained TensorFlow models. Won Best Use of AI/ML Award at Purdue Indy Hackathon 2025. Adapted TensorFlow models to fit project goals, planned and executed a weeklong project plan, continuing previous work on AI in sports and health.",
+        "description": "TensorFlow-powered exercise counter that won Best Use of AI/ML at Purdue Indy Hackathon 2025.",
         "technologies": ["Python", "TensorFlow", "AI/ML", "Computer Vision"],
         "liveUrl": "",
         "githubUrl": "https://github.com/frederick-g-lu/Hackathon-3-27-2025",
@@ -25,7 +25,7 @@
     },
     {
         "title": "Calorie Tracker Quick Project",
-        "description": "Client database server website designed to help track calorie intake throughout the day. Built using SQL for backend and React for frontend.",
+        "description": "React and SQL calorie tracker with CRUD workflows and protection against SQL injection.",
         "technologies": ["Web Development", "Database", "Backend Development", "Frontend Development", "SQL", "SQL Security"],
         "liveUrl": "",
         "githubUrl": "https://github.com/frederick-g-lu",
@@ -33,7 +33,7 @@
     },
     {
         "title": "Undergraduate Student Research",
-        "description": "Analyzed sales, service, and replacement data to identify defect-prone products. Processed and organized 200,000+ data points to develop a predictive function for cumulative defects over six years. Identified six high-loss products through team analysis with $50,000+ impact.",
+        "description": "Processed 200,000+ data points to model six years of product defects and identify six high-loss products.",
         "technologies": ["Python", "Data Analysis", "Pandas", "NumPy", "SQL"],
         "liveUrl": "",
         "githubUrl": "https://github.com/frederick-g-lu",
@@ -41,7 +41,7 @@
     },
     {
         "title": "Undergraduate Student Research - AI Healthcare Platform",
-        "description": "Developing an AI-powered platform that provides real-time, patient-specific cost-saving recommendations. This innovative solution aims to reduce administrative burden, promote pharmacoequity, and improve health outcomes by making medication access easier for patients and providers. Research conducted under Dr. Alan Zillich - Pharm.D., FCCP.",
+        "description": "AI healthcare platform generating patient-specific medication cost-saving recommendations with RAG and full-stack integration.",
         "technologies": ["Python", "AI/ML", "Healthcare Technology", "Data Analysis"],
         "liveUrl": "",
         "githubUrl": "https://github.com/frederick-g-lu",
@@ -49,7 +49,7 @@
     },
     {
         "title": "ToolBot",
-        "description": "A 5-degree-of-freedom robotic arm that can identify and sort tools on its own. ToolBot was entirely 3D-printed, with custom gearing to keep it fast and reliable, and a modified YOLO algorithm trained on common workshop tools to handle object recognition in real time. Built as a hackathon project completed in a day and a half with excellent team coordination.",
+        "description": "3D-printed robotic arm using a fine-tuned YOLOv5 model and Qualcomm Rubik Pi 3 edge deployment for real-time manipulation.",
         "technologies": ["Robotics", "3D Printing", "YOLO", "Computer Vision", "AI/ML"],
         "liveUrl": "",
         "githubUrl": "",

@@ -44,6 +44,10 @@ build/
 *.temp
 .cache/
 
+# Private application materials
+*.docx
+*.odt
+
 
 # Local Netlify folder
 .netlify
