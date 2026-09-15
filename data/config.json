@@ -63,7 +63,7 @@
     "activities": [
         {
             "title": "Martial Arts",
-            "description": "10+ years of martial arts experience"
+            "description": "10+ years of martial arts experience, current taekwondo club instructor"
         },
         {
             "title": "Hiking",
@@ -71,7 +71,11 @@
         },
         {
             "title": "Game Development",
-            "description": "Aspiring game developer passionate about interactive experiences"
+            "description": "Aspiring game developer with lots of unfinished ideas"
+        },
+        {
+            "title": "Architecture",
+            "description": "I enjoy learning about interesting interior and exterior designs"
         }
     ],
     "theme": {
@@ -80,7 +84,7 @@
         "accentColor": "#eb6f92"
     },
     "features": {
-        "enableAnimations": true,
+        "enableAnimations": false,
         "enableParallax": true,
         "enableDarkMode": true
     }

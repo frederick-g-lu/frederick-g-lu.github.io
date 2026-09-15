@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Intro",
+    "date": "2026-09-15",
+    "excerpt": "Hello, this is a test to see if the blog is working correctly.",
+    "featured": true,
+    "content": [
+      "I was going to run a 5k and then I did not run the 5k."
+    ]
+  }
+]

@@ -1,5 +1,13 @@
 [
     {
+        "title": "ToolBot",
+        "description": "3D-printed robotic arm using a fine-tuned YOLOv5 model and Qualcomm Rubik Pi 3 edge deployment for real-time manipulation.",
+        "technologies": ["Robotics", "3D Printing", "YOLO", "Computer Vision", "AI/ML"],
+        "liveUrl": "",
+        "githubUrl": "",
+        "year": "2026"
+    },
+    {
         "title": "Stickman Adblocker",
         "description": "Ad-blocking prototype with custom filtering methods and an interactive stickman interface.",
         "technologies": ["Node.js", "Javascript", "HTML", "CSS"],
@@ -16,14 +24,6 @@
         "year": "2026"
     },
     {
-        "title": "Squat Counter",
-        "description": "TensorFlow-powered exercise counter that won Best Use of AI/ML at Purdue Indy Hackathon 2025.",
-        "technologies": ["Python", "TensorFlow", "AI/ML", "Computer Vision"],
-        "liveUrl": "",
-        "githubUrl": "https://github.com/frederick-g-lu/Hackathon-3-27-2025",
-        "year": "2025"
-    },
-    {
         "title": "Calorie Tracker Quick Project",
         "description": "React and SQL calorie tracker with CRUD workflows and protection against SQL injection.",
         "technologies": ["Web Development", "Database", "Backend Development", "Frontend Development", "SQL", "SQL Security"],
@@ -32,27 +32,19 @@
         "year": "2026"
     },
     {
+        "title": "Squat Counter",
+        "description": "TensorFlow-powered exercise counter that won Best Use of AI/ML at Purdue Indy Hackathon 2025.",
+        "technologies": ["Python", "TensorFlow", "AI/ML", "Computer Vision"],
+        "liveUrl": "",
+        "githubUrl": "https://github.com/frederick-g-lu/Hackathon-3-27-2025",
+        "year": "2025"
+    },
+    {
         "title": "Undergraduate Student Research",
         "description": "Processed 200,000+ data points to model six years of product defects and identify six high-loss products.",
         "technologies": ["Python", "Data Analysis", "Pandas", "NumPy", "SQL"],
         "liveUrl": "",
         "githubUrl": "https://github.com/frederick-g-lu",
         "year": "2025"
-    },
-    {
-        "title": "Undergraduate Student Research - AI Healthcare Platform",
-        "description": "AI healthcare platform generating patient-specific medication cost-saving recommendations with RAG and full-stack integration.",
-        "technologies": ["Python", "AI/ML", "Healthcare Technology", "Data Analysis"],
-        "liveUrl": "",
-        "githubUrl": "https://github.com/frederick-g-lu",
-        "year": "2025"
-    },
-    {
-        "title": "ToolBot",
-        "description": "3D-printed robotic arm using a fine-tuned YOLOv5 model and Qualcomm Rubik Pi 3 edge deployment for real-time manipulation.",
-        "technologies": ["Robotics", "3D Printing", "YOLO", "Computer Vision", "AI/ML"],
-        "liveUrl": "",
-        "githubUrl": "",
-        "year": "2026"
     }
 ]

@@ -1,9 +1,17 @@
 [
     {
+        "title": "MARTLLM",
+        "description": "AI healthcare platform generating patient-specific medication cost-saving recommendations with RAG and full-stack integration.",
+        "journal": "Purdue University, Dr. Alan Zillich",
+        "url": "https://www.phpr.purdue.edu/faculty/azillich",
+        "year": "2025-2026",
+        "technologies": ["Python", "AI/ML", "Healthcare Technology", "Data Analysis"]
+    },
+    {
         "title": "AiShifu: AI Karate Pose Trainer",
         "description": "AI karate training tool using human pose estimation; 500+ downloads and 16+ citations.",
         "journal": "Journal of Student Research",
-        "url": "https://doi.org/10.47611/jsrhs.v12i3.5063",
+        "url": "https://www.researchgate.net/publication/378162071_AiShifu_AI_Karate_Pose_Trainer_Using_Human_Pose_Estimation",
         "year": "2023",
         "technologies": ["Python", "TensorFlow", "Computer Vision", "Neural Networks", "Human Pose Estimation"]
     }
