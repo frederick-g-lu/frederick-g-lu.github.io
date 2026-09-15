@@ -48,7 +48,7 @@ const renderEntry = (entry, type, index) => {
     .join('');
 
   return `
-    <article class="entry-row"${index >= PREVIEW_LIMIT ? ' hidden' : ''}>
+    <article class="entry-row${index >= PREVIEW_LIMIT ? ' overflow-entry' : ''}"${index >= PREVIEW_LIMIT ? ' hidden' : ''}>
       <div class="entry-head">
         <h3>${escapeHtml(entry.title)}</h3>
         ${secondary ? `<p>${escapeHtml(secondary)}</p>` : ''}
@@ -74,7 +74,7 @@ const renderEntryList = (entries, type) => {
     toggle.hidden = false;
     toggle.addEventListener('click', () => {
       const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
-      list.querySelectorAll('.entry-row[hidden]').forEach((entry) => {
+      list.querySelectorAll('.overflow-entry').forEach((entry) => {
         entry.hidden = isExpanded;
       });
       toggle.setAttribute('aria-expanded', String(!isExpanded));
