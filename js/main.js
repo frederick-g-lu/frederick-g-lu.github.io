@@ -21,6 +21,19 @@ const fetchJson = async (path) => {
   return response.json();
 };
 
+// Blog content may be one multiline string; blank lines become separate paragraphs.
+const getBlogParagraphs = (content, excerpt) => {
+  const source = Array.isArray(content) ? content.join('\n\n') : content || excerpt;
+  return String(source)
+    // Normalize escaped newline text as well as newline characters from JSON.
+    .replace(/\\n/g, '\n')
+    .split(/\r?\n\s*\r?\n/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean);
+};
+
+const renderBlogParagraph = (paragraph) => escapeHtml(paragraph).replace(/\r?\n/g, '<br>');
+
 const renderBlog = (posts) => {
   const list = document.getElementById('blog-list');
   if (!list) return;
@@ -32,7 +45,9 @@ const renderBlog = (posts) => {
         <time datetime="${escapeHtml(post.date)}">${escapeHtml(post.date)}</time>
       </summary>
       <div class="accordion-body">
-        ${(post.content || [post.excerpt]).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
+        ${getBlogParagraphs(post.content, post.excerpt)
+          .map((paragraph) => `<p>${renderBlogParagraph(paragraph)}</p>`)
+          .join('')}
       </div>
     </details>
   `).join('');

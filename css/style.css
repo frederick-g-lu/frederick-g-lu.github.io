@@ -273,6 +273,7 @@ h2 {
 
 .accordion-body p {
   margin: 0 0 0.85rem;
+  white-space: pre-line;
 }
 
 .see-more-label {
